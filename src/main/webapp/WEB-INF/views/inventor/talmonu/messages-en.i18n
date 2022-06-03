@@ -1,0 +1,31 @@
+inventor.talmonu.list.label.code = Code
+inventor.talmonu.list.label.theme = Theme
+inventor.talmonu.list.label.item = Item
+
+inventor.talmonu.list.button.create = Create
+
+inventor.talmonu.form.label.code = Code:
+inventor.talmonu.form.label.creationMoment = CreationMoment:
+inventor.talmonu.form.label.theme = Theme:
+inventor.talmonu.form.label.explanation = Explanation:
+inventor.talmonu.form.label.startPeriod = StartPeriod:
+inventor.talmonu.form.label.endPeriod = EndPeriod:
+inventor.talmonu.form.label.expenditure = Expenditure:
+inventor.talmonu.form.label.furtherInfo = FurtherInfo:
+inventor.talmonu.form.label.item = Tool:
+
+inventor.talmonu.form.button.update = Update
+inventor.talmonu.form.button.delete = Delete
+inventor.talmonu.form.button.create = Create
+
+inventor.talmonu.form.error.code-date = The date is not current
+inventor.talmonu.form.error.code-regex = The code must be the current date yyw{4}/mm/dd. For example: 22AAAA/06/03
+inventor.talmonu.form.error.not-unique = The code is not unique
+inventor.talmonu.form.error.spam = This text is a spam text
+inventor.talmonu.form.error.start-period-not-enough = The date must be at least one month after the creation date
+inventor.talmonu.form.error.end-period-one-week-before-start-period = The date must be at least one week after the start date
+inventor.talmonu.form.error.incorrect-currency = This currency is not avalaible in the system
+inventor.talmonu.form.error.negative-budget = The budget must not be negative
+inventor.talmonu.form.error.item-null = There must be one item
+inventor.talmonu.form.error.item-does-not-exist = This item doesn't exist
+inventor.talmonu.form.error.item-not-available = No tools available

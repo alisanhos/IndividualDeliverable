@@ -34,11 +34,11 @@ public class AdministratorDashboard implements Serializable {
 	
 	Map<Status,Stats>						statsBudgetOfStatusPatronages;
 	
-	//Xx1
+	//Talmonu
 	
-	double 									ratioOfItemWithXx1;
+	double 									ratioOfItemWithTalmonu;
 	
-	Map<String, Stats>         				statsXx6OfXx1;
+	Map<String, Stats>         				statsExpenditureOfTalmonu;
 
 
 

@@ -23,12 +23,12 @@ public interface AdministratorDashboardRepository extends AbstractRepository{
 	@Query("select p.status, avg(p.budget.amount), stddev(p.budget.amount), min(p.budget.amount), max(p.budget.amount) from Patronage p group by p.status")
 	List<Object[]> statsBudgetOfStatusPatronages();
 	
-	//Xx1
-	@Query("select count(*) * 100 / (select count(*) from Item i where i.itemType = :type) from Xx1")
-	double ratioOfItemWithXx1 (ItemType type);
+	//Talmonu
+	@Query("select count(*) * 100 / (select count(*) from Item i where i.itemType = :type) from Talmonu")
+	double ratioOfItemWithTalmonu (ItemType type);
 	
-	@Query("select x.xx6.currency, avg(x.xx6.amount), stddev(x.xx6.amount), min(x.xx6.amount), max(x.xx6.amount) from Xx1 x group by x.xx6.currency")
-	List<Object[]> statsXx6OfXx1();
+	@Query("select x.expenditure.currency, avg(x.expenditure.amount), stddev(x.expenditure.amount), min(x.expenditure.amount), max(x.expenditure.amount) from Talmonu x group by x.expenditure.currency")
+	List<Object[]> statsExpenditureOfTalmonu();
 	
 }
 	
